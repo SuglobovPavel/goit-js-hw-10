@@ -5,12 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework 10</title>
+    <style>
+      .country-list {
+        list-style-type:none;
+        padding-left: 0px;
+      }
+      .country-small-row {
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      .country-small-row img{
+        display: block;
+        max-width: 30px;
+        margin-right: 10px;
+        height: auto;
+      }
+      .country-big-row__header {
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      .country-big-row__header img {
+        max-width: 50px;
+        margin-right: 20px;
+      }
+      .country-big-row ul {
+        list-style-type: none;
+        padding-left: 0px;
+      }
+      .country-big-row ul li {
+        margin-bottom: 10px;
+        font-size: 16px;
+      }
+    </style>
   </head>
   <body>
     <input type="text" id="search-box" />
     <ul class="country-list"></ul>
     <div class="country-info"></div>
 
-    <script src="index.js"></script>
+    <script src="index.js" ></script>
   </body>
 </html>
