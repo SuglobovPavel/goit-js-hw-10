@@ -80,4 +80,4 @@ function searchInput(e){
    })
 }
 
-REFS.input.addEventListener("input", debounce(searchInput, 300));
+REFS.input.addEventListener("input", debounce(searchInput, DEBOUNCE_DELAY));
